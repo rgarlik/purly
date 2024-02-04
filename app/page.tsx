@@ -23,7 +23,7 @@ export default function Home() {
         alt="Picture of food"
         className="rounded-lg shadow-lg shadow-blue-600"
       ></Image> */}
-      <div className="mb-10 mt-10 p-20 w-3/4 rounded-md text-lg text-center p-4 text-slate-100 shadow-slate-100 bg-[url('/food-tint.png')]">
+      <div className="mb-10 mt-10 p-20 w-full rounded-md text-lg text-center p-4 text-slate-100 shadow-slate-100 bg-[url('/food-tint.png')]">
         <p
           style={{
             filter: "drop-shadow(0px 0px 4px #000000);",
@@ -37,7 +37,7 @@ export default function Home() {
           prítomnosť rôznych kontaminantov.
         </p>
       </div>
-      <div className="mb-10 p-20 w-3/4 rounded-md text-lg text-center p-4 text-slate-100 shadow-slate-100 bg-[url('/lab-tint.png')]">
+      <div className="mb-10 p-20 w-full rounded-md text-lg text-center p-4 text-slate-100 shadow-slate-100 bg-[url('/lab-tint.png')]">
         <p
           style={{
             filter: "drop-shadow(0px 0px 4px #000000);",
